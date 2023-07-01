@@ -1,0 +1,597 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+#header {
+  justify-content: space-between;
+  background-color: rgba(4, 9, 51, 0.493);
+  box-shadow: 0 5px 15px rgb(0, 0, 0, 0.06);
+  z-index: 999;
+  position: sticky;
+  margin-top: 20px;
+}
+
+header .logo {
+  width: 180px;
+  position: relative;
+  left: 5%;
+}
+
+#navbar {
+  display: inline-block;
+  position: relative;
+  left: 45%;
+  bottom: 70px;
+}
+
+#navbar li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 50px;
+}
+
+#navbar li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(95, 197, 231);
+  transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+color: rgba(204, 216, 36, 0.685);
+}
+
+
+body {
+  background-image: url(/imagenes/fondo.jpg);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#descripcion {
+  display: inline-block;
+  position: relative;
+  bottom: 60px;
+}
+
+#descripcion img{
+display: inline-block;
+position: relative;
+width: 250px;
+height: 250px;
+left: 30%;
+top: 90px;
+}
+
+
+#descripcion h1 {
+    display: inline;
+    position: relative;
+    left: 25%;
+    font-size: 80px;
+    color: rgba(240, 248, 255, 0.767);
+    background-color: rgba(5, 4, 83, 0.411);
+    font-family: 'Amatic SC', cursive;
+    bottom: 20px;
+}
+
+#descripcion h2 {
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    font-size: 24px;
+    background-color: rgba(8, 8, 71, 0.459);
+    color: rgba(255, 255, 255, 0.801);
+    padding: 65px;
+    height: 2px;
+    width: 550px;
+    margin-top: 2px;
+    padding-top: 15px;
+    border-width:3px;
+    border-style:inset;
+    border-color:rgba(130, 143, 12, 0.26);
+    bottom: 30px;
+}
+
+#trailer{
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+#video{ display: inline-block;
+        width: 45vw;
+        height: 53vh;
+        position: relative;
+        left: 2%;
+      
+}
+
+#info{
+  display: inline-block;
+  position: relative;
+  left: 7%;
+  bottom: 4vw;
+  
+}
+
+#texto p{ 
+    display: inline-block;
+    position: relative;
+    background-color: rgba(5, 4, 83, 0.411);
+    max-width: 44vw;
+    font-size: 28px;
+    color: rgba(240, 248, 255, 0.822);
+    padding: 2% ;
+    height: 50vh;
+  
+}
+
+
+#seccion1 h3{
+    font-size: 40px;
+    color: rgba(240, 248, 255, 0.781);
+    text-align: center;
+    border-width:3px;
+    border-style:inset;
+    border-color:rgba(130, 143, 12, 0.267);
+    background-color: rgba(21, 4, 66, 0.452);
+    top: 50px;
+}
+#eventos{
+    text-align: center;
+    border-image: 5px;
+    background-color: rgba(7, 7, 71, 0.438);
+    
+}
+
+.even-box img{
+    width: 100%;
+    border-width:3px;
+    border-style:groove;
+    border-color:rgba(130, 143, 12, 0.61);
+}
+
+.container{
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+}
+
+.even-box h3{
+    width: 40%;
+    margin: 30px auto;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.678);
+    background-color: #1d9ce670;
+}
+
+
+#seccion2 h3{
+    font-size: 40px;
+    color: rgba(240, 248, 255, 0.781);
+    text-align: center;
+    border-width:3px;
+    border-style:inset;
+    border-color:rgba(130, 143, 12, 0.267);
+    background-color: rgba(21, 4, 66, 0.452);
+}
+
+
+#articulos{
+  text-align: center;
+  border-image: 5px;
+  background-color: rgba(7, 7, 71, 0.438);
+  
+}
+
+.art-box img{
+  width: 100%;
+  border-width:3px;
+  border-style:groove;
+  border-color:rgba(130, 143, 12, 0.61);
+}
+
+.container2{
+  display: inline-block;
+  width: 30%;
+  margin: 1%;
+}
+
+.art-box h3{
+  width: 40%;
+  margin: 30px auto;
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.678);
+  background-color: #1d9ce670;
+}
+
+#seccion3 h3{
+  font-size: 40px;
+  color: rgba(240, 248, 255, 0.781);
+  text-align: center;
+  border-style:inset;
+  border-color:rgba(130, 143, 12, 0.267);
+  background-color: rgba(21, 4, 66, 0.452);
+  height: 50px;
+}
+
+
+#galeria{
+  border-image: 5px;
+  background-color: rgba(7, 7, 71, 0.438);
+  overflow: hidden;
+  width: 100%;
+}
+
+.gal-box img{
+  display: inline-block;
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+  border-width:3px;
+  border-style:groove;
+  border-color:rgba(130, 143, 12, 0.61);
+}
+
+.imagenes{
+  display: inline-block;
+  width: 30%;
+  margin: 30px;
+  margin: 1%;
+}
+
+
+.footer-conteiner{
+  background-color: rgba(5, 5, 99, 0.541);
+  bottom: 6%;
+  padding-right: 40%;
+}
+
+
+.copyright{
+  text-align: center;
+  color: aliceblue;
+  font-size: 20px;
+  position:absolute;
+  left: 38%;
+}
+.footer-conteiner img{
+  display: inline-block;
+  position: relative;
+  width: 20%;
+  left: 6%;
+}
+
+#footer-navbar{
+  display: inline-block;
+  position: relative;
+  left: 60%;
+}
+
+
+#footer-navbar li {
+  position: relative;
+  text-align: center;
+  display:block;
+  list-style: none;
+  padding: 6px;
+}
+
+#footer-navbar li a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(95, 197, 231);
+
+}
+
+.comunidad{
+  display: inline-block;
+  position: relative;
+  left: 90%;
+  bottom: 40px;
+
+
+}
+
+.comunidad li {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(95, 197, 231);
+  list-style: none;
+  left: 20%;
+}
+.iconos li{
+  display: inline-block;
+  position: relative;
+  font-size: 35px;
+  top: 20px;
+  margin: 20px;
+  left: 10px;
+}
+
+
+#personajes {
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+#personajes h1 {
+  display: block;
+  position: relative;
+  bottom: 50px;
+  font-size: 65px;
+  color: rgba(240, 248, 255, 0.767);
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+}
+
+#personajes h2 {
+  display:block;
+  position: relative;
+  top: 100px;
+  font-size: 24px;
+  background-color: rgba(8, 8, 71, 0.459);
+  color: rgba(255, 255, 255, 0.801);
+  text-align: center;
+  border-style:inset;
+  border-color:rgba(130, 143, 12, 0.26);
+  padding: 20px;
+}
+
+#personajes h3{
+  display:block;
+  position: relative;
+  top:50px;
+  font-size: 50px;
+  background-color: rgba(109, 121, 6, 0.281);
+  color: rgba(255, 255, 255, 0.801);
+  text-align: center;
+  border-style:inset;
+  border-color:rgba(130, 143, 12, 0.26);
+  padding: 10px;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+}
+
+
+.personajes-conteiner{
+display: inline-block;
+position: relative;
+margin: 3%;
+left: 2%;
+
+}
+
+.main{
+  display: inline-block;
+
+}
+
+.main img{
+  min-width: 160px;
+  min-height: 160px;
+}
+
+.elemento{
+  display: inline-block;
+}
+
+.elemento img{
+  position:absolute;
+  bottom: 60%;
+  margin: 0 auto;
+}
+
+
+#proximamente h1{
+  font-size: 50px;
+  color: rgba(240, 248, 255, 0.781);
+  text-align: center;
+  border-width:3px;
+  border-style:inset;
+  border-color:rgba(130, 143, 12, 0.267);
+  background-color: rgba(131, 68, 9, 0.452);
+  font-family: 'Amatic SC', cursive;
+}
+
+.personajes-conteiner{
+  display: inline-block;
+  position: relative;
+  margin: 3%;
+  left: 2%;
+  
+  }
+  
+  .main{
+    display: inline-block;
+  
+  }
+  
+  .main img{
+    min-width: 160px;
+    min-height: 160px;
+  }
+  
+  .elemento{
+    display: inline-block;
+  }
+  
+  .elemento img{
+    position:absolute;
+    bottom: 60%;
+    margin: 0 auto;
+  }
+
+  .main h3{
+    font-size: 30px;
+    color: rgba(125, 103, 253, 0.753);
+
+  }
+
+
+#tier{
+display: inline-block;
+position: relative;
+font-size: 90px;
+color: chocolate;
+right: 45px;
+bottom: 70px;
+}
+
+#novedades-des {
+  display: inline-block;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+#novedades-des h1 {
+  display: inline;
+  position: relative;
+  left: 28%;
+  bottom: 20px;
+  font-size: 80px;
+  color: rgba(240, 248, 255, 0.767);
+  background-color: rgba(5, 4, 83, 0.411);
+  font-family: 'Amatic SC', cursive;
+}
+
+#novedades-des h3 {
+  display: inline-block;
+  position: relative;
+  left: 20%;
+  bottom: 10px;
+  font-size: 30px;
+  background-color: rgba(8, 8, 71, 0.459);
+  color: rgba(255, 255, 255, 0.801);
+  padding: 65px;
+  height: 2px;
+  width: 550px;
+  margin-top: 2px;
+  padding-top: 15px;
+  border-width:3px;
+  border-style:inset;
+  border-color:rgba(130, 143, 12, 0.26);
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+}
+
+#novedades-des img{
+display: inline-block;
+position: relative;
+top: 50px;
+left: 9%;
+width: 150px;
+}
+
+#novedades{
+  text-align: center;
+  border-image: 5px;
+  background-color: rgba(7, 7, 71, 0.438);
+  overflow: hidden;
+}
+
+.nov-box img{ 
+  width: 100%;
+  border-width:3px;
+  border-style:groove;
+  border-color:rgba(130, 143, 12, 0.61);
+  object-fit: cover;
+}
+
+.container-nov{
+  display: inline-block;
+  width: 30%;
+  margin: 1%;
+}
+
+.nov-box h3{
+  width: 90%;
+  margin: 30px auto;
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.678);
+  background-color: #1d9ce670;
+}
+
+
+#contenido{
+  display: block;
+  margin: 0 auto;
+  border-image: 5px;
+  width: 50%;
+  height: 40%;
+  text-align: center;
+}
+
+#titulo h1, span{
+  color: aliceblue;
+}
+
+#con-box img{
+  width: 100%;
+  border-width:3px;
+  border-style:groove;
+  border-color:rgba(130, 143, 12, 0.61);
+
+}
+
+#con-box h3{
+  width: 100%;
+  margin: 30px auto;
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.678);
+  background-color: #1d9ce670;
+}
+
+#titulo{
+  display: inline-block;
+  width: 70%;
+  margin: 1%;
+
+}
+
+#novedades-des h3 {
+  display: inline-block;
+  position: relative;
+  left: 20%;
+  bottom: 10px;
+  font-size: 30px;
+  background-color: rgba(8, 8, 71, 0.459);
+  color: rgba(255, 255, 255, 0.801);
+  padding: 65px;
+  height: 2px;
+  width: 550px;
+  margin-top: 2px;
+  padding-top: 15px;
+  border-width:3px;
+  border-style:inset;
+  border-color:rgba(130, 143, 12, 0.26);
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+}
+
+.stars {
+  color: #fff
+}
+
+.comunidad .iconos i{
+  color: #fff
+}
+
