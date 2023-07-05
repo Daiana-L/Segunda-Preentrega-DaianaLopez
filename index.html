@@ -5,15 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Honkai: Star Rail wiki</title>
-    <link rel="stylesheet" href="/css/style.css" type="text/css" />
-    <link rel="icon"  href="/imagenes/logo4.png" >
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/82622bdf27.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="icon"  href="/imagenes/logo4.png" >
   </head>
   <body>
 
 
-  <main> 
-    <header id="header">
+<header>
+  <nav class="navbar navbar-expand-sm">
+    <div class="container-fluid offset-lg-1">
+      <a class="navbar-brand" href="index.html"> <img src="imagenes/logo4.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav sm ms-auto  mb-lg-0 ">
+          <li class="nav-item ">
+            <a class="nav-link " href="./pages/personajes.html">Personajes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/tierList.html">TierList</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/novedades.html">Novedades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/contenido.html">Nuevo Contenido</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+<!--    
+-->
+    <!--<header id="header">
       <a href="index.html">
         <img src="/imagenes/logo4.png"  class="logo" alt="logo" />
       </a>
@@ -25,15 +58,18 @@
         <li><a href="./pages/contenido.html">Nuevo Contenido</a></li>
       </ol>
       </nav>
-    </header>
+      -->
 
-    <div id="descripcion">
+<main> 
+
+  <section class="descripcion">
       <h2>
         Honkai: Star Rail información, wiki, news, tier list, builds y más
       </h2>
       <h1>Honkai: Star Rail</h1>
       <img src="./imagenes/pompom-titulo.jpg" alt="pompom">
-    </div>
+  </section>
+
 
     <section id="trailer">
       <iframe
@@ -46,27 +82,21 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
+      <div id="info">
+        <p>
+              Honkai: Star Rail sigue el estilo de juego de los juegos de rol
+              japoneses clásicos: los jugadores construyen una alineación de
+              personajes y controlan un equipo de cuatro en combate por turnos. Los
+              elementos de exploración de mundo abierto y mazmorras están presentes,
+              con múltiples mecánicas, incluido el sistema gacha, heredado del RPG de
+              acción Genshin Impact de HoYoverse. El juego está ambientado en un
+              universo de ciencia y fantasía en el que la humanidad sigue los caminos
+              de seres llamados Eones. 
+        </p>
+    </div>
     </section>
 
-<section id="info">
-<div id="texto">
-    <p>
-          Honkai: Star Rail sigue el estilo de juego de los juegos de rol
-          japoneses clásicos: los jugadores construyen una alineación de
-          personajes y controlan un equipo de cuatro en combate por turnos. Los
-          elementos de exploración de mundo abierto y mazmorras están presentes,
-          con múltiples mecánicas, incluido el sistema gacha, heredado del RPG de
-          acción Genshin Impact de HoYoverse. El juego está ambientado en un
-          universo de ciencia y fantasía en el que la humanidad sigue los caminos
-          de seres llamados Eones. El personaje del jugador, el Trailblazer, cuyo
-          nombre y género son elegidos por el jugador, despierta sin su memoria a
-          bordo de una estación espacial y descubre que están imbuidos de un
-          Stellaron, una entidad cósmica disruptiva. Se unen a una banda de
-          aventureros, los Trailblazers, que viajan de mundo en mundo a bordo del
-          Astral Express, su tren espacial.
-    </p>
-</div>
-</section>
+
 
 
     <div id="seccion1"><h3>Eventos</h3></div>
@@ -128,7 +158,7 @@
       </div>
       <div class="container2">
         <div class="art-box">
-          <img src="/imagenes/ariculo3.jpg" alt="imagen del articulo" />
+          <img src="/imagenes/articulo3.jpg" alt="imagen del articulo" />
           <a
             href="https://www.hobbyconsolas.com/guias-trucos/honkai-star-rail-conos-luz-explicados-como-conseguirlos-sirven-1073545"
             ><h3>
@@ -143,59 +173,68 @@
 
     <div id="seccion3"><h3>Galeria</h3></div>
 
-    <section id="galeria">
-      <div class="imagenes">
-        <div class="gal-box">
-          <img src="/imagenes/galeria4.jpg" alt="imagen de la galeria" />
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/imagenes/galeria2.jpg" class="d-block w-100" alt="imagen galeria">
+        </div>
+        <div class="carousel-item">
+          <img src="/imagenes/galeria3.jpg" class="-block w-100" alt="imagen galeria">
+        </div>
+        <div class="carousel-item">
+          <img src="/imagenes/galeria4.jpg" class="d-block w-100" alt="imagen galeria">
+        </div>
+        <div class="carousel-item">
+          <img src="/imagenes/galeria5.jpg" class="d-block w-100" alt="imagen galeria">
+        </div>
+        <div class="carousel-item">
+          <img src="/imagenes/galeria7.jpg" class="d-block w-100" alt="imagen galeria">
+        </div>
+        <div class="carousel-item">
+          <img src="/imagenes/galeria9.jpg" class="d-block w-100" alt="imagen galeria">
         </div>
       </div>
-      <div class="imagenes">
-        <div class="gal-box">
-          <img src="/imagenes/galeria2.jpg" alt="imagen de la galeria" />
-        </div>
-      </div>
-      <div class="imagenes">
-        <div class="gal-box">
-          <img src="/imagenes/galeria5.jpg" alt="imagen de la galeria" />
-        </div>
-			</div>
-      <div class="imagenes">
-        <div class="gal-box">
-          <img src="/imagenes/galeria3.jpg" alt="imagen de la galeria" />
-        </div>
-			</div>
-      <div class="imagenes">
-        <div class="gal-box">
-          <img src="/imagenes/galeria9.jpg" alt="imagen de la galeria" />
-        </div>
-			</div>
-      <div class="imagenes">
-        <div class="gal-box">
-          <img src="/imagenes/galeria7.jpg" alt="imagen de la galeria" />
-        </div>
-      </div>
-    </section>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
   </main> 
 
 <footer>
         <div class="footer-conteiner">
-          <a href="#">
-            <img src="imagenes/logo4.png" class="logo" alt="logo" />
-          </a>
-          <div id="footer-navbar">
-            <li><a href="./pages/personajes.html">Personajes</a></li>
-            <li><a href="./pages/tierList.html">TierList</a></li>
-            <li><a href="./pages/novedades.html">Novedades</a></li>
-            <li><a href="./pages/contenido.html">Nuevo Contenido</a></li>
-          </div>
-          <div class="comunidad">
-            <li><a>comunidad</a></li>
-            <div class="iconos">
-            <li><a href="https://www.reddit.com/r/HonkaiStarRail/" target="_blank"><i class="fa-brands fa-square-reddit" ></i></a></li>
-            <li><a href="https://www.facebook.com/HonkaiStarRail/" target="_blank"><i class="fa-brands fa-square-facebook" ></i></a></li>
-            <li><a href="https://discord.com/invite/honkaistarrail" target="_blank"><i class="fa-brands fa-discord" ></i></a></li>
-          </div>
+          <div class="footer">
+
+            <a href="index.html">
+              <img src="imagenes/logo4.png" class="logo" alt="logo" />
+            </a>
+            <div id="footer-navbar">
+              <li><a href="./pages/personajes.html">Personajes</a></li>
+              <li><a href="./pages/tierList.html">TierList</a></li>
+              <li><a href="./pages/novedades.html">Novedades</a></li>
+              <li><a href="./pages/contenido.html">Nuevo Contenido</a></li>
+            </div>
+            <div class="comunidad">
+              <li><a>comunidad</a></li>
+              <div class="iconos">
+              <li><a href="https://www.reddit.com/r/HonkaiStarRail/" target="_blank"><i class="fa-brands fa-square-reddit" ></i></a></li>
+              <li><a href="https://www.facebook.com/HonkaiStarRail/" target="_blank"><i class="fa-brands fa-square-facebook" ></i></a></li>
+              <li><a href="https://discord.com/invite/honkaistarrail" target="_blank"><i class="fa-brands fa-discord" ></i></a></li>
+            </div>
+            </div>
           </div>
           <div class="copyright">
             <p>© Copyright 2023.Honkai:star rail wiki. All Rights Reserved.</p>
