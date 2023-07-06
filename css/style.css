@@ -17,6 +17,12 @@
 }
 
 
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 header{
   width: 100%;
   background-color: rgba(4, 9, 51, 0.493);
@@ -48,7 +54,7 @@ grid-template-columns: 900px 700px 900px;
 margin-top: 40px;
 }
 
-@media (max-width: 574px) {
+@media (max-width: 400px) and (max-width: 574px) {
   .descripcion{
     display: flex;
     flex-direction: column;
@@ -146,7 +152,7 @@ height: 250px;
   height: 50vh;
 }
 
-@media (max-width: 574px){
+@media (min-width: 574px) and (max-width: 1650px){
         #info {
       max-width: 100%;
       max-height: 100%;
@@ -314,14 +320,14 @@ width: 400px;
 
 
 
-@media(max-width: 574px){
+@media(min-width: 574px) and (max-width: 1650px){
           .slide img{
           width: 700px;
           height: 350px;
         }
 }
 
-@media(max-width: 574px){
+@media(min-width: 574px) and (max-width: 1650px){
           .slide{
           margin: auto;
           width: 100%;
@@ -436,17 +442,16 @@ justify-content: space-between;
   font-size: 35px;
 }
 
+/* seccion personajes.html   */
 
 #personajes {
-  display: block;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  position: relative;
 }
 
 #personajes h1 {
-  display: block;
-  position: relative;
   bottom: 50px;
   font-size: 65px;
   color: rgba(240, 248, 255, 0.767);
@@ -455,8 +460,6 @@ justify-content: space-between;
 }
 
 #personajes h2 {
-  display:block;
-  position: relative;
   top: 100px;
   font-size: 24px;
   background-color: rgba(8, 8, 71, 0.459);
@@ -468,8 +471,7 @@ justify-content: space-between;
 }
 
 #personajes h3{
-  display:block;
-  position: relative;
+  width: 100%;
   top:50px;
   font-size: 50px;
   background-color: rgba(109, 121, 6, 0.281);
@@ -484,16 +486,35 @@ justify-content: space-between;
 
 
 .personajes-conteiner{
-display: inline-block;
-position: relative;
 margin: 3%;
 left: 2%;
-
 }
 
-.main{
-  display: inline-block;
 
+#lista-personaje{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+margin-top:1%;
+margin-left: 5%;
+}
+
+@media(min-width: 400px) and (max-width: 1650px){
+            #lista-personaje{
+              display: grid;
+              margin-top:1%;
+              margin-left: 5%;
+            }
+}
+
+
+#lista-pro{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+margin-top:1%;
+margin-left: 5%;
+}
+.main{
+  display: flexbox;
 }
 
 .main img{
@@ -501,13 +522,10 @@ left: 2%;
   min-height: 160px;
 }
 
-.elemento{
-  display: inline-block;
-}
+
 
 .elemento img{
-  position:absolute;
-  bottom: 60%;
+  bottom: 5%;
   margin: 0 auto;
 }
 
@@ -524,32 +542,17 @@ left: 2%;
 }
 
 .personajes-conteiner{
-  display: inline-block;
-  position: relative;
   margin: 3%;
   left: 2%;
   
   }
   
-  .main{
-    display: inline-block;
-  
-  }
   
   .main img{
     min-width: 160px;
     min-height: 160px;
   }
   
-  .elemento{
-    display: inline-block;
-  }
-  
-  .elemento img{
-    position:absolute;
-    bottom: 60%;
-    margin: 0 auto;
-  }
 
   .main h3{
     font-size: 30px;
@@ -559,25 +562,28 @@ left: 2%;
 
 
 #tier{
-display: inline-block;
-position: relative;
 font-size: 90px;
 color: chocolate;
 right: 45px;
 bottom: 70px;
 }
 
-#novedades-des {
-  display: inline-block;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
+.nivel{
+display: flex;
+align-items: center;
+
+
 }
 
-#novedades-des h1 {
-  display: inline;
-  position: relative;
-  left: 28%;
+.filas{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.novedades-des h1 {
+  align-items: center;
   bottom: 20px;
   font-size: 80px;
   color: rgba(240, 248, 255, 0.767);
@@ -586,9 +592,6 @@ bottom: 70px;
 }
 
 #novedades-des h3 {
-  display: inline-block;
-  position: relative;
-  left: 20%;
   bottom: 10px;
   font-size: 30px;
   background-color: rgba(8, 8, 71, 0.459);
@@ -605,16 +608,9 @@ bottom: 70px;
   font-family: 'Amatic SC', cursive;
 }
 
-#novedades-des img{
-display: inline-block;
-position: relative;
-top: 50px;
-left: 9%;
-width: 150px;
-}
+
 
 #novedades{
-  text-align: center;
   border-image: 5px;
   background-color: rgba(7, 7, 71, 0.438);
   overflow: hidden;
@@ -629,9 +625,8 @@ width: 150px;
 }
 
 .container-nov{
-  display: inline-block;
-  width: 30%;
-  margin: 1%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nov-box h3{
@@ -644,7 +639,9 @@ width: 150px;
 
 
 #contenido{
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 0 auto;
   border-image: 5px;
   width: 50%;
@@ -665,6 +662,7 @@ width: 150px;
 }
 
 #con-box h3{
+  display: flex;
   width: 100%;
   margin: 30px auto;
   border-radius: 10px;
@@ -673,31 +671,44 @@ width: 150px;
 }
 
 #titulo{
-  display: inline-block;
   width: 70%;
-  margin: 1%;
 
 }
 
-#novedades-des h3 {
-  display: inline-block;
-  position: relative;
-  left: 20%;
-  bottom: 10px;
+.novedades-des h2 {
   font-size: 30px;
   background-color: rgba(8, 8, 71, 0.459);
   color: rgba(255, 255, 255, 0.801);
   padding: 65px;
   height: 2px;
-  width: 550px;
-  margin-top: 2px;
   padding-top: 15px;
   border-width:3px;
   border-style:inset;
   border-color:rgba(130, 143, 12, 0.26);
   text-align: center;
   font-family: 'Amatic SC', cursive;
+  margin-top: 40px;
+
 }
+
+.novedades-des{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-nov{
+display: flex;
+justify-content: space-around;
+}
+
+#novedades-des{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 
 .stars {
   color: #fff
