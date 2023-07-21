@@ -1,0 +1,35 @@
+/* seccion del video y texto  */
+
+#trailer {
+    display: flex;
+    justify-content: space-around;
+
+    #video {
+        @include video-estilos;
+    }
+    #info {
+        @include info-estilos;
+    }
+}
+
+#seccion1 h3 {
+    @include seccion1-estilos;
+}
+
+
+@media (width <= 1650px) {
+    #trailer {
+        display: flex;
+        flex-direction: column;
+
+        #video {
+            width: $width-full;
+            height: 40vh;
+        }
+        #info {
+            @include mediaquerys-info-estilos
+        }
+    }
+}
+
+

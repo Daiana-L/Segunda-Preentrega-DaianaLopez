@@ -1,0 +1,518 @@
+/* seccion h1,h3 index titulo*/
+@mixin titulo-estilos {
+    font-size: 80px;
+    color: $color-blancoTransparente;
+    background-color: $color-azul;
+    font-family: $fond-amatic;
+    margin: auto;
+}
+
+@mixin subtitulo-estilos {
+    font-size: 24px;
+    background-color: $color-azul;
+    color: $color-blancoTransparente;
+    padding-top: 15px;
+    border-width: 3px;
+    border-style: inset;
+    border-color: $color-dorado;
+    margin-left: 100px;
+}
+
+@mixin mediaquery-titulo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 60px;
+}
+
+@mixin mediaquery-subtitulo {
+    align-items: center;
+    margin: auto;
+    padding: auto;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+@mixin mediaquery-img {
+    display: none;
+}
+@mixin pompom{
+    width: 250px;
+    height: 250px;
+}
+
+/* seccion del video y texto  */
+
+@mixin video-estilos {
+    width: 45vw;
+    height: 53vh;
+    left: 2%;
+}
+
+@mixin info-estilos {
+    color: $color-blanco;
+    background-color: $color-azul;
+    max-width: 44vw;
+    font-size: 28px;
+    color: $color-blancoTransparente;
+    padding: 2%;
+    height: 50vh;
+}
+
+@mixin seccion1-estilos {
+    font-size: 40px;
+    color: $color-blancoTransparente;
+    text-align: center;
+    border-width: 3px;
+    border-style: inset;
+    border-color: $color-dorado;
+    background-color: $color-azul;
+    top: 90px;
+    margin-top: 20px;
+}
+
+@mixin mediaquerys-info-estilos {
+    max-width: 100%;
+    max-height: 100%;
+    overflow-x: scroll;
+    margin-top: 30px;
+}
+
+/* seccion de eventos */
+
+@mixin even-box-img {
+    width: $width-full;
+    border-width: 3px;
+    border-style: groove;
+    border-color: $color-dorado;
+}
+
+@mixin even-box-h3 {
+    font-size: 40px;
+    color: $color-blancoTransparente;
+    text-align: center;
+    border-width: 3px;
+    border-style: inset;
+    border-color: $color-dorado;
+    background-color: $color-azul;
+    margin-top: 20px;
+}
+
+@mixin seccion2-h3 {
+    font-size: 40px;
+    color: $color-blancoTransparente;
+    text-align: center;
+    border-width: 3px;
+    border-style: inset;
+    border-color: $color-dorado;
+    background-color: $color-azul;
+    margin-top: 20px;
+}
+
+/* seccion articulos   */
+
+@mixin art-box-img {
+    width: $width-full;
+    border-width: 3px;
+    border-style: groove;
+    border-color: $color-dorado;
+}
+
+@mixin art-box-h3 {
+    width: 40%;
+    margin: 30px auto;
+    border-radius: 10px;
+    color: $color-blancoTransparente;
+    background-color: $color-cesleste;
+    width: $width-full;
+}
+
+@mixin seccion3-h3 {
+    font-size: 40px;
+    color: $color-blancoTransparente;
+    text-align: center;
+    border-style: inset;
+    border-color: $color-dorado;
+    background-color: $color-azul;
+}
+
+/* seccion galeria modificando el carrusel */
+
+@mixin slice-estilos {
+    width: 76%;
+    margin-bottom: 30px;
+    margin-left: 26vh;
+    margin-top: 30px;
+}
+
+@mixin slice-img {
+    width: 700px;
+    height: 350px;
+}
+
+/* seccion footer */
+
+@mixin footer-display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@mixin footer-navbar-display {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+@mixin footer-navbar-li {
+    text-align: center;
+    list-style: none;
+    padding: 6px;
+}
+
+@mixin footer-navbar-a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    color: $footer-link;
+}
+
+@mixin footer-logo-estilo {
+    display: flex;
+    margin: auto;
+    width: 200px;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+@mixin copyright-estilo {
+    display: flex;
+    align-items: end;
+    color: $color-blanco;
+    font-size: 20px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+@mixin iconos-li {
+    display: flex;
+    flex-direction: row;
+    font-size: 35px;
+}
+
+@mixin comunidad-li {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    color: $footer-link;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 10vw;
+}
+
+@mixin iconos-li-display {
+    display: flex;
+    flex-direction: row;
+    font-size: 35px;
+}
+
+/* seccion personajes.html   */
+
+@mixin personajes-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin personajes-h1 {
+    bottom: 50px;
+    font-size: 65px;
+    color: $color-blancoTransparente;
+    text-align: center;
+    font-family: $fond-amatic;
+}
+
+@mixin personajes-h2 {
+    top: 100px;
+    font-size: 24px;
+    background-color: $color-azul;
+    color: $color-blancoTransparente;
+    text-align: center;
+    border-style: inset;
+    border-color: $color-dorado;
+    padding: 20px;
+}
+
+@mixin personajes-h3 {
+    width: $width-full;
+    top: 50px;
+    font-size: 50px;
+    background-color: $color-dorado;
+    color: $color-blancoTransparente;
+    text-align: center;
+    border-style: inset;
+    border-color: $color-dorado;
+    padding: 10px;
+    text-align: center;
+    font-family: $fond-amatic;
+}
+
+@mixin lista-personajes-display {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    grid-column-gap: 50px;
+    margin-top: 1%;
+}
+
+@mixin personajes-conteiner {
+    margin: 3%;
+    left: 2%;
+}
+
+@mixin main-estilos {
+    img {
+        min-width: 160px;
+        min-height: 160px;
+    }
+    h3 {
+        font-size: 30px;
+        color: $maid-color-h3;
+    }
+
+    .stars {
+        color: $color-blanco;
+    }
+}
+@mixin elemento-img {
+    bottom: 5%;
+    margin: 0 auto;
+}
+
+@mixin lista-pro-display {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+@mixin proximamente-h1 {
+    font-size: 50px;
+    color: $color-blancoTransparente;
+    text-align: center;
+    border-width: 3px;
+    border-style: inset;
+    border-color: $color-dorado;
+    background-color: $tier-color;
+    font-family: $fond-amatic;
+}
+
+@mixin mediaquery-lista-personajes-display {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 2fr));
+    margin-top: 1%;
+    margin: 1%;
+
+    .main h3 {
+        font-size: 20px;
+    }
+}
+
+/* tierlist seccion */
+
+@mixin nivel-display {
+    display: flex;
+    align-items: center;
+}
+
+@mixin tier-estilos {
+    font-size: 90px;
+    color: $tier-color;
+    right: 45px;
+    bottom: 70px;
+}
+@mixin filas-display {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@mixin mediaquery-nivel {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(60px));
+}
+
+@mixin mediaquery-filas {
+    flex-wrap: wrap;
+}
+
+/* novedades seccion */
+
+@mixin novedades-des {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@mixin nodedades-des-h1 {
+    align-items: center;
+    bottom: 20px;
+    font-size: 80px;
+    color: $color-blancoTransparente;
+    background-color: $color-azul;
+    font-family: "Amatic SC", cursive;
+}
+
+@mixin novedades-des-h2 {
+    font-size: 30px;
+    background-color: $color-azul;
+    color: $color-blancoTransparente;
+    padding: 65px;
+    height: 2px;
+    padding-top: 15px;
+    border-width: 3px;
+    border-style: inset;
+    border-color: $color-dorado;
+    text-align: center;
+    font-family: $fond-amatic;
+    margin-top: 40px;
+}
+
+@mixin nodedades-estilo {
+    border-image: 5px;
+    background-color: $color-azul;
+    overflow: hidden;
+}
+
+@mixin conteiner-nov {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin nov-box {
+    img {
+        width: $width-full;
+        border-width: 3px;
+        border-style: groove;
+        border-color: $color-dorado;
+        object-fit: cover;
+    }
+    h3 {
+        width: 90%;
+        margin: 30px auto;
+        border-radius: 10px;
+        color: $color-blancoTransparente;
+        background-color: $color-cesleste;
+    }
+}
+
+@mixin mediaquery-novedades-des-nov {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    padding-top: 0;
+    h1 {
+        margin-top: 17px;
+    }
+
+    h2 {
+        margin-top: auto;
+    }
+    img {
+        display: none;
+    }
+}
+
+@mixin mediaquery-conteiner-nov {
+    display: flex;
+    flex-direction: column;
+}
+
+/*seccion contenido*/
+
+@mixin contenido-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    border-image: 5px;
+    width: 50%;
+    height: 40%;
+    text-align: center;
+}
+
+@mixin titulo {
+    width: 70%;
+    h1,
+    span {
+        color: $color-blanco;
+    }
+}
+
+@mixin con-box {
+    img {
+        width: $width-full;
+        border-width: 3px;
+        border-style: groove;
+        border-color: $color-dorado;
+    }
+    h3 {
+        width: $width-full;
+        margin: 30px auto;
+        border-radius: 10px;
+        color: $color-blancoTransparente;
+        background-color: $color-cesleste;
+    }
+}
+
+@mixin mediaquery-novedades-des-con {
+    display: flex;
+    flex-direction: column;
+
+    img {
+        display: none;
+    }
+    h3 {
+        font-size: 20px;
+    }
+}
+
+@mixin proximamente-h1-con {
+    font-size: 50px;
+    color: $color-blancoTransparente;
+    text-align: center;
+    border-width: 3px;
+    border-style: inset;
+    border-color: $color-dorado;
+    background-color: $tier-color;
+    font-family: $fond-amatic;
+}
+
+@mixin novedades-h3{
+    bottom: 10px;
+    font-size: 30px;
+    background-color: rgba(8, 8, 71, 0.459);
+    color: rgba(255, 255, 255, 0.801);
+    padding: 65px;
+    height: 2px;
+    width: 550px;
+    margin-top: 2px;
+    padding-top: 15px;
+    border-width: 3px;
+    border-style: inset;
+    border-color: rgba(130, 143, 12, 0.26);
+    text-align: center;
+    font-family: "Amatic SC", cursive;
+}
+
+
+@mixin novedades{
+    border-image: 5px;
+    background-color: rgba(7, 7, 71, 0.438);
+    overflow: hidden;
+}

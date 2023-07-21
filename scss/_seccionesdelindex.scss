@@ -1,0 +1,109 @@
+/* seccion de eventos */
+
+#eventos {
+    display: flex;
+    text-align: center;
+    border-image: 5px;
+    background-color: $color-azul;
+
+    .container {
+        width: 30%;
+        margin: 1%;
+
+        .even-box img {
+            @include even-box-img;
+            h3 {
+                @include even-box-h3;
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    #eventos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: $width-full;
+        }
+    }
+}
+
+#seccion2 h3 {
+    @include seccion2-h3;
+}
+
+/* seccion articulos   */
+
+#articulos {
+    display: flex;
+    text-align: center;
+    border-image: 5px;
+    background-color: $color-azul;
+    margin-bottom: 20px;
+
+    .container2 {
+        width: 30%;
+        margin: 1%;
+
+        .art-box img {
+            @include art-box-img;
+
+            h3 {
+                @include art-box-h3;
+            }
+        }
+    }
+}
+
+#seccion3 h3 {
+    @include seccion3-h3;
+}
+
+@media (max-width: 400px) {
+    #articulos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .container2 {
+            display: flex;
+            flex-direction: column;
+            width: $width-full;
+        }
+    }
+}
+
+
+/* seccion galeria modificando el carrusel */
+
+.slide {
+    @include slice-estilos;
+
+    img {
+        height: 700px;
+        width: 400px;
+    }
+}
+
+@media (width <= 1000px) {
+    .slide {
+        margin: auto;
+        width: 80%;
+
+        img {
+        @include slice-img;
+        }
+    }
+}
+
+@media (width <= 400px) {
+    .slide {
+        margin: auto;
+        width: $width-full;
+    }
+}

@@ -1,0 +1,21 @@
+/* modificando el nav */
+header {
+    width: $width-full;
+    background-color: $color-azul;
+
+    .navbar-brand {
+        height: 150px;
+        padding-top: 0;
+
+        img {
+            padding-top: 0;
+            width: 210px;
+            height: 200px;
+        }
+        .nav-link {
+            color: $color-blancoTransparente;
+            font-size: 20px;
+            font-family: $font-nunito;
+        }
+    }
+}

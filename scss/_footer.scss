@@ -1,0 +1,68 @@
+/* seccion footer */
+
+.footer-conteiner {
+    width: $width-full;
+    background-color: $color-azul;
+    .footer {
+        @include footer-display;
+    }
+
+    #footer-navbar {
+        @include footer-navbar-display;
+
+        li {
+            @include footer-navbar-li;
+
+            a {
+                @include footer-navbar-a;
+            }
+        }
+    }
+}
+
+.logo {
+    @include footer-logo-estilo;
+}
+
+.copyright {
+    @include copyright-estilo;
+}
+
+.iconos li {
+    @include iconos-li;
+}
+
+.comunidad {
+    li {
+        @include comunidad-li;
+    }
+
+    .iconos li {
+        @include iconos-li-display;
+    }
+}
+
+@media (width <= 1400px) {
+    .comunidad li {
+        font-size: 15px;
+    }
+}
+
+@media (width <= 1400px) {
+    .copyright {
+        font-size: 15px;
+    }
+}
+
+@media (width <= 1400px) {
+    #footer-navbar li a {
+        font-size: 15px;
+    }
+}
+
+@media (width <= 1400px) {
+    .logo {
+        margin-left: 30px;
+    
+}
+}

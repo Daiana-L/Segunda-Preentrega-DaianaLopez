@@ -1,0 +1,49 @@
+/* seccion personajes.html   */
+
+#personajes {
+    @include personajes-display;
+
+    h1 {
+        @include personajes-h1;
+    }
+
+    h2 {
+        @include personajes-h2;
+    }
+
+    h3 {
+        @include personajes-h3;
+    }
+}
+
+#lista-personaje {
+    @include lista-personajes-display;
+
+    .personajes-conteiner {
+        @include personajes-conteiner;
+    }
+
+    .main {
+        @include main-estilos;
+
+        .elemento {
+            img {
+                @include elemento-img;
+            }
+        }
+    }
+
+    #lista-pro {
+        @include lista-pro-display;
+    }
+
+    #proximamente h1 {
+        @include proximamente-h1;
+    }
+
+    @media (max-width: 400px) {
+        #lista-personaje {
+            @include mediaquery-lista-personajes-display;
+        }
+    }
+}

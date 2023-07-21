@@ -1,0 +1,36 @@
+/* titulo e informacion de la pagina  */
+.descripcion {
+    display: grid;
+    grid-template-rows: 80px 80px 80px;
+    grid-template-columns: 900px 700px 900px;
+    margin-top: 40px;
+
+
+    h1 {
+        @include titulo-estilos;
+    }
+
+    h2 {
+        @include subtitulo-estilos;
+    }
+}
+
+@media (width <= 1650px) {
+    .descripcion {
+        display: flex;
+        flex-direction: column;
+    }
+    .descripcion h1 {
+        @include mediaquery-titulo;
+    }
+    .descripcion h2 {
+        @include mediaquery-subtitulo;
+    }
+    .descripcion img{
+        @include mediaquery-img;
+    }
+}
+
+.descripcion img {
+    @include pompom;
+}

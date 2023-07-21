@@ -1,0 +1,42 @@
+/*seccion contenido*/
+
+#contenido {
+    display: flex;
+    @include contenido-display;
+    #titulo {
+        @include titulo;
+    }
+
+    #con-box {
+        @include con-box;
+    }
+}
+
+#proximamente {
+    @include proximamente-h1-con;
+}
+@media (width <= 1650px) {
+    #novedades-des {
+        @include mediaquery-novedades-des-con;
+    }
+}
+
+@media (width <= 1650px) {
+    #titulo {
+        width: $width-full;
+    }
+}
+
+@media (width <= 1650px) {
+    #contenido {
+        width: $width-full;
+    }
+}
+
+#novedades-des h3 {
+    @include novedades-h3;
+}
+
+#novedades{
+    @include novedades;
+}

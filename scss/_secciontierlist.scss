@@ -1,0 +1,24 @@
+/* tierlist seccion */
+
+.nivel {
+    @include nivel-display;
+
+    #tier {
+        @include tier-estilos;
+    }
+    .filas {
+        @include filas-display;
+    }
+}
+
+@media (width <= 600px) {
+    .nivel {
+        @include mediaquery-nivel;
+    }
+}
+
+@media (width <= 575px) {
+    .filas {
+        @include mediaquery-filas;
+    }
+}

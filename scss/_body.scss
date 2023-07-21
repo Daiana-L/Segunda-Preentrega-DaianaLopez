@@ -1,0 +1,14 @@
+/*modificaciones del body*/
+
+html,
+body {
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+

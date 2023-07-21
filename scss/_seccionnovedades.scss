@@ -1,0 +1,35 @@
+/* novedades seccion */
+
+.novedades-des {
+    @include novedades-des;
+
+    h1 {
+        @include nodedades-des-h1;
+    }
+    h2 {
+        @include novedades-des-h2;
+    }
+}
+
+#novedades {
+    @include nodedades-estilo;
+    .container-nov {
+        @include conteiner-nov;
+    }
+
+    .nov-box {
+        @include nov-box;
+    }
+}
+
+@media (width <= 1650px) {
+    .novedades-des {
+        @include mediaquery-novedades-des-con;
+    }
+}
+
+@media (width <= 1650px) {
+    .container-nov {
+        @include mediaquery-conteiner-nov;
+    }
+}
