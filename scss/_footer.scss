@@ -26,6 +26,14 @@
     }
 }
 
+@media(width <= 1400px){
+    #footer-navbar ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
 .logo {
     @include footer-logo-estilo;
 }

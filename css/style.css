@@ -313,6 +313,13 @@ body {
     font-size: 9px;
   }
 }
+@media (width <= 1400px) {
+  #footer-navbar ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
 .logo {
   display: flex;
   margin: auto;
