@@ -25,11 +25,20 @@
 @media (width <= 1650px) {
     .novedades-des {
         @include mediaquery-novedades-des-con;
+        h1{
+            text-align: center;
+        }
     }
 }
 
 @media (width <= 1650px) {
     .container-nov {
         @include mediaquery-conteiner-nov;
+    }
+}
+
+@media (width  <= 1650px){
+    .novedades-des h2{
+        @include mediaquery-novedades-des-h2;
     }
 }

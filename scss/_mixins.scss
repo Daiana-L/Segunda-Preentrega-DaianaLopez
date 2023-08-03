@@ -390,10 +390,10 @@
 }
 
 @mixin conteiner-nov {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 2fr));
+    grid-column-gap: 50px;
     margin-top: 1%;
-    justify-items: center;
 }
 
 @mixin nov-box {
@@ -437,6 +437,16 @@
     flex-direction: column;
 }
 
+@mixin mediaquery-novedades-des-h2{
+width: 30px;
+font-size: 20px;
+}
+
+
+@mixin mediaquery-novedades-des-h3{
+    font-size: 20px;
+    margin-top:0;
+}
 /*seccion contenido*/
 
 @mixin contenido-display {
@@ -445,6 +455,7 @@
     margin-top: 1%;
     justify-items: center;
 }
+
 
 @mixin titulo {
     width: 70%;
@@ -493,6 +504,7 @@
     border-style: inset;
     border-color: $color-dorado;
     font-family: $fond-amatic;
+    background-color: $tier-color;
 }
 
 @mixin novedades-h3 {
