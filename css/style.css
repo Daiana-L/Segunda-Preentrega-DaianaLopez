@@ -639,6 +639,10 @@ body {
     margin-top: 7px;
   }
 }
+#proximamente h1 {
+  font-family: "Amatic SC", cursive;
+}
+
 @media (width <= 1650px) {
   #titulo {
     width: 100%;
@@ -657,7 +661,7 @@ body {
   padding: 65px;
   height: 2px;
   width: 750px;
-  margin-top: 50px;
+  margin-top: 34px;
   padding-top: 15px;
   border-width: 3px;
   border-style: inset;

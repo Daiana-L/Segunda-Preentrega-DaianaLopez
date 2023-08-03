@@ -21,6 +21,10 @@
     }
 }
 
+#proximamente h1{
+    @include proximamente-h1;
+}
+
 @media (width <= 1650px) {
     #titulo {
         width: $width-full;

@@ -507,6 +507,10 @@ font-size: 20px;
     background-color: $tier-color;
 }
 
+@mixin proximamente-h1{
+    font-family: $fond-amatic;
+}
+
 @mixin novedades-h3 {
     bottom: 10px;
     font-size: 30px;
@@ -515,7 +519,7 @@ font-size: 20px;
     padding: 65px;
     height: 2px;
     width: 750px;
-    margin-top: 50px;
+    margin-top: 34px;
     padding-top: 15px;
     border-width: 3px;
     border-style: inset;
