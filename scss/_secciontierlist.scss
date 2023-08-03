@@ -13,6 +13,9 @@
 .filas .main h3 {
     color: $maid-color-h3;
 }
+.stars li {
+    color: $color-blancoTransparente;
+}
 
 @media (width <= 600px) {
     .nivel {
