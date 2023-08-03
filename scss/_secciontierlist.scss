@@ -10,12 +10,15 @@
         @include filas-display;
     }
 }
-h3 {
-    color: $maid-color-h3;
+.main{
+    h3 {
+        color: $maid-color-h3;
+    }
+    li {
+        color: $color-blancoTransparente;
+    }
 }
-li {
-    color: $color-blancoTransparente;
-}
+
 
 @media (width <= 600px) {
     .nivel {
