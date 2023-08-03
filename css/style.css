@@ -600,6 +600,10 @@ body {
   .novedades-des img {
     display: none;
   }
+  .novedades-des h2 {
+    width: 317px;
+    padding: 17px;
+  }
   .novedades-des h3 {
     font-size: 15px;
     padding: 21px;
@@ -693,6 +697,10 @@ body {
   }
   #novedades-des img {
     display: none;
+  }
+  #novedades-des h2 {
+    width: 317px;
+    padding: 17px;
   }
   #novedades-des h3 {
     font-size: 15px;
