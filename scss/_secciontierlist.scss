@@ -10,6 +10,9 @@
         @include filas-display;
     }
 }
+.filas .main h3 {
+    color: $maid-color-h3;
+}
 
 @media (width <= 600px) {
     .nivel {

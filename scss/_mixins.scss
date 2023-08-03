@@ -340,6 +340,7 @@
     align-items: center;
 }
 
+
 @mixin mediaquery-nivel {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(60px));
