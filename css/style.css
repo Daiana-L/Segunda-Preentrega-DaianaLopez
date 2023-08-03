@@ -361,11 +361,6 @@ body {
   }
 }
 @media (width <= 1400px) {
-  #footer-navbar li a {
-    font-size: 15px;
-  }
-}
-@media (width <= 1400px) {
   .logo {
     margin-left: 2px;
     width: 120px;
