@@ -1,4 +1,5 @@
 /*modificaciones del body*/
+@import "variables.scss";
 
 html,
 body {
@@ -11,4 +12,18 @@ body {
     overflow-x: hidden;
 }
 
+$fondo: $imagen-fondo;
+
+html,
+body {
+    @if $fondo == $color-azul {
+        background-color: $color-azul;
+    } @else if $fondo == $color-blancoTransparente {
+        background-color: $color-blancoTransparente;
+    } @else if $fondo ==$imagen-fondo{
+        background-image: url(/imagenes/fondo.jpg);
+    }@else{
+        background-color: $color-blanco;
+    }
+}
 

@@ -36,7 +36,7 @@
 @mixin mediaquery-img {
     display: none;
 }
-@mixin pompom{
+@mixin pompom {
     width: 250px;
     height: 250px;
 }
@@ -264,7 +264,7 @@
 
 @mixin lista-personajes-display {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(160px, 2fr));
     grid-column-gap: 50px;
     margin-top: 1%;
 }
@@ -295,25 +295,25 @@
 
 @mixin lista-pro-display {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(160px, 2fr));
+    grid-column-gap: 50px;
     margin-top: 1%;
-    margin-left: 5%;
 }
 
-@mixin proximamente-h1 {
+@mixin proximamente-h2 {
+    background-color: $tier-color;
     font-size: 50px;
     color: $color-blancoTransparente;
     text-align: center;
     border-width: 3px;
     border-style: inset;
     border-color: $color-dorado;
-    background-color: $tier-color;
     font-family: $fond-amatic;
 }
 
 @mixin mediaquery-lista-personajes-display {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     margin-top: 1%;
     margin: 1%;
 
@@ -331,7 +331,6 @@
 
 @mixin tier-estilos {
     font-size: 90px;
-    color: $tier-color;
     right: 45px;
     bottom: 70px;
 }
@@ -354,9 +353,6 @@
 
 @mixin novedades-des {
     margin-top: 40px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
 @mixin nodedades-des-h1 {
@@ -364,12 +360,12 @@
     bottom: 20px;
     font-size: 80px;
     color: $color-blancoTransparente;
-    background-color: $color-azul;
     font-family: "Amatic SC", cursive;
 }
 
 @mixin novedades-des-h2 {
-    font-size: 30px;
+    width: 40%;
+    font-size: 50px;
     background-color: $color-azul;
     color: $color-blancoTransparente;
     padding: 65px;
@@ -384,6 +380,10 @@
 }
 
 @mixin nodedades-estilo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+    margin-top: 1%;
+    justify-items: center;
     border-image: 5px;
     background-color: $color-azul;
     overflow: hidden;
@@ -391,19 +391,23 @@
 
 @mixin conteiner-nov {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 1%;
+    justify-items: center;
 }
 
 @mixin nov-box {
     img {
-        width: $width-full;
+        align-items: center;
+        width: 80%;
         border-width: 3px;
         border-style: groove;
         border-color: $color-dorado;
         object-fit: cover;
     }
     h3 {
-        width: 90%;
+        text-align: center;
+        width: 70%;
         margin: 30px auto;
         border-radius: 10px;
         color: $color-blancoTransparente;
@@ -436,14 +440,10 @@
 /*seccion contenido*/
 
 @mixin contenido-display {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    border-image: 5px;
-    width: 50%;
-    height: 40%;
-    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-top: 1%;
+    justify-items: center;
 }
 
 @mixin titulo {
@@ -451,6 +451,7 @@
     h1,
     span {
         color: $color-blanco;
+        text-align: center;
     }
 }
 
@@ -479,6 +480,8 @@
     }
     h3 {
         font-size: 20px;
+        padding: 52px;
+        margin-top: 7px;
     }
 }
 
@@ -489,19 +492,18 @@
     border-width: 3px;
     border-style: inset;
     border-color: $color-dorado;
-    background-color: $tier-color;
     font-family: $fond-amatic;
 }
 
-@mixin novedades-h3{
+@mixin novedades-h3 {
     bottom: 10px;
     font-size: 30px;
     background-color: rgba(8, 8, 71, 0.459);
     color: rgba(255, 255, 255, 0.801);
     padding: 65px;
     height: 2px;
-    width: 550px;
-    margin-top: 2px;
+    width: 750px;
+    margin-top: 50px;
     padding-top: 15px;
     border-width: 3px;
     border-style: inset;
@@ -510,9 +512,18 @@
     font-family: "Amatic SC", cursive;
 }
 
-
-@mixin novedades{
+@mixin novedades {
     border-image: 5px;
     background-color: rgba(7, 7, 71, 0.438);
     overflow: hidden;
+}
+
+@mixin novedades-des {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@mixin contenido-img {
+    width: 200px;
 }

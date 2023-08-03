@@ -37,6 +37,13 @@
     @include novedades-h3;
 }
 
-#novedades{
+#novedades {
     @include novedades;
+}
+#novedades-des {
+    @include novedades-des;
+}
+
+#novedades-des img {
+    @include contenido-img;
 }

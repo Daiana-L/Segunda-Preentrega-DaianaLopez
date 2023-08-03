@@ -22,8 +22,7 @@ header .navbar-brand img {
   width: 210px;
   height: 200px;
 }
-
-.nav-link {
+header .navbar-brand .nav-link {
   color: rgba(240, 248, 255, 0.767);
   font-size: 20px;
   font-family: "Nunito Sans", sans-serif;
@@ -409,7 +408,7 @@ body {
 
 #lista-personaje {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 2fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
   grid-column-gap: 50px;
   margin-top: 1%;
 }
@@ -434,14 +433,14 @@ body {
 }
 #lista-personaje #lista-pro {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 2fr));
-  grid-column-gap: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   margin-top: 1%;
+  margin-left: 5%;
 }
-@media (max-width: 200px) {
+@media (max-width: 400px) {
   #lista-personaje #lista-personaje {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(140px, 2fr));
     margin-top: 1%;
     margin: 1%;
   }
@@ -450,8 +449,7 @@ body {
   }
 }
 
-#proximamente h2 {
-  background-color: rgba(249, 116, 21, 0.662);
+#proximamente h1 {
   font-size: 50px;
   color: rgba(240, 248, 255, 0.767);
   text-align: center;
@@ -459,10 +457,6 @@ body {
   border-style: inset;
   border-color: rgba(130, 143, 12, 0.267);
   font-family: "Amatic SC", cursive;
-}
-
-.nivel #tier {
-  color: rgba(249, 116, 21, 0.662);
 }
 
 /* tierlist seccion */
@@ -563,8 +557,6 @@ body {
   }
   .novedades-des h3 {
     font-size: 20px;
-    padding: 52px;
-    margin-top: 7px;
   }
 }
 @media (width <= 1650px) {
@@ -623,8 +615,6 @@ body {
   }
   #novedades-des h3 {
     font-size: 20px;
-    padding: 52px;
-    margin-top: 7px;
   }
 }
 @media (width <= 1650px) {
