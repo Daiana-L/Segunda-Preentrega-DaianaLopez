@@ -448,7 +448,7 @@ body {
 }
 #lista-personaje .main h3 {
   font-size: 30px;
-  color: rgba(125, 103, 253, 0.753);
+  color: rgba(16, 159, 254, 0.786);
 }
 #lista-personaje .main .stars {
   color: rgba(255, 255, 255, 0.6862745098);
@@ -476,6 +476,11 @@ body {
   }
 }
 
+@media (max-width: 200px) {
+  #lista-personaje .main h3 {
+    font-size: 20px;
+  }
+}
 #proximamente h2 {
   background-color: rgba(252, 109, 6, 0.479);
   font-size: 50px;
@@ -505,6 +510,14 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.main h3 {
+  color: rgba(16, 159, 254, 0.786);
+}
+
+.stars i {
+  color: rgba(240, 248, 255, 0.767);
 }
 
 @media (width <= 600px) {
