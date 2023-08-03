@@ -314,7 +314,7 @@ body {
   }
 }
 @media (width <= 1400px) {
-  #footer-navbar ul {
+  .footer-conteiner #footer-navbar ul {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
