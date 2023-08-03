@@ -626,7 +626,7 @@ body {
   }
 }
 @media (width <= 1650px) {
-  .novedades-des h2 {
+  .novedades-des {
     width: 30px;
     font-size: 20px;
   }

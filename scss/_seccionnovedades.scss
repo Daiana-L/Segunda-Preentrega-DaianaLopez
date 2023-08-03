@@ -43,7 +43,7 @@
 }
 
 @media (width <= 1650px) {
-    .novedades-des h2 {
+    .novedades-des {
         @include mediaquery-novedades-des-h2;
     }
 }
