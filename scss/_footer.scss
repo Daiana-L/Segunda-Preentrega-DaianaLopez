@@ -21,16 +21,13 @@
 }
 
 @media (width <= 1400px) {
-    .footer-conteiner #footer-navbar a  {
-        font-size: 9px;
-    }
-}
-
-@media(width <= 1400px){
-   .footer-conteiner #footer-navbar ul{
+    .footer-conteiner #footer-navbar ul {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        a {
+            font-size: 9px;
+        }
     }
 }
 
@@ -69,11 +66,9 @@
     }
 }
 
-
-
 @media (width <= 1400px) {
     .logo {
         margin-left: 2px;
         width: 120px;
-}
+    }
 }

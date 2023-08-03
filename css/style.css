@@ -309,15 +309,13 @@ body {
 }
 
 @media (width <= 1400px) {
-  .footer-conteiner #footer-navbar a {
-    font-size: 9px;
-  }
-}
-@media (width <= 1400px) {
   .footer-conteiner #footer-navbar ul {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+  }
+  .footer-conteiner #footer-navbar ul a {
+    font-size: 9px;
   }
 }
 .logo {
