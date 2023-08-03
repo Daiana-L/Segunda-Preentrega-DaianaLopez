@@ -340,7 +340,6 @@
     align-items: center;
 }
 
-
 @mixin mediaquery-nivel {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(60px));
@@ -415,8 +414,6 @@
         background-color: $color-cesleste;
     }
 }
-
-
 
 @mixin mediaquery-novedades-des-nov {
     display: flex;
@@ -510,7 +507,7 @@
     img {
         display: none;
     }
-    h2{
+    h2 {
         width: 317px;
         padding: 17px;
     }
