@@ -316,7 +316,7 @@
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     margin-top: 1%;
     margin: 1%;
-
+    grid-column-gap: 7px;
     .main h3 {
         font-size: 20px;
     }
@@ -440,15 +440,14 @@
     flex-direction: column;
 }
 
-@mixin mediaquery-novedades-des-h2{
-width: 30px;
-font-size: 20px;
+@mixin mediaquery-novedades-des-h2 {
+    width: 30px;
+    font-size: 20px;
 }
 
-
-@mixin mediaquery-novedades-des-h3{
+@mixin mediaquery-novedades-des-h3 {
     font-size: 20px;
-    margin-top:0;
+    margin-top: 0;
 }
 /*seccion contenido*/
 
@@ -458,7 +457,6 @@ font-size: 20px;
     margin-top: 1%;
     justify-items: center;
 }
-
 
 @mixin titulo {
     width: 70%;
@@ -502,7 +500,6 @@ font-size: 20px;
     font-family: "Amatic SC", cursive;
 }
 
-
 @mixin mediaquery-novedades-des-con {
     display: flex;
     flex-direction: column;
@@ -529,11 +526,9 @@ font-size: 20px;
     background-color: $tier-color;
 }
 
-@mixin proximamente-h1{
+@mixin proximamente-h1 {
     font-family: $fond-amatic;
 }
-
-
 
 @mixin novedades {
     border-image: 5px;
