@@ -20,10 +20,9 @@ body {
         background-color: $color-azul;
     } @else if $fondo == $color-blancoTransparente {
         background-color: $color-blancoTransparente;
-    } @else if $fondo ==$imagen-fondo{
-        background-image: url(/imagenes/fondo.jpg);
-    }@else{
+    } @else if $fondo ==$imagen-fondo {
+        background-image: url("../imagenes/fondo.jpg");
+    } @else {
         background-color: $color-blanco;
     }
 }
-
