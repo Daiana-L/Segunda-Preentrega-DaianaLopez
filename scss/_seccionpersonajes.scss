@@ -44,6 +44,12 @@
     }
 }
 
+@media (max-width: 200px){
+    #lista-personaje .main h3 {
+        font-size: 20px;
+    }
+}
+
 #proximamente h2 {
     @include proximamente-h2;
 }
