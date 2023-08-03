@@ -453,7 +453,7 @@ body {
 }
 
 #proximamente h2 {
-  background-color: rgba(249, 116, 21, 0.662);
+  background-color: rgba(252, 109, 6, 0.479);
   font-size: 50px;
   color: rgba(240, 248, 255, 0.767);
   text-align: center;
@@ -464,7 +464,7 @@ body {
 }
 
 .nivel #tier {
-  color: rgba(249, 116, 21, 0.662);
+  color: rgba(252, 109, 6, 0.479);
 }
 
 /* tierlist seccion */
@@ -564,10 +564,10 @@ body {
     display: none;
   }
   .novedades-des h3 {
-    font-size: 20px;
-    padding: 52px;
-    margin-top: 7px;
-    height: 0;
+    font-size: 15px;
+    padding: 21px;
+    margin-top: -23px;
+    height: 67px;
   }
   .novedades-des h1 {
     text-align: center;
@@ -623,7 +623,7 @@ body {
   border-style: inset;
   border-color: rgba(130, 143, 12, 0.267);
   font-family: "Amatic SC", cursive;
-  background-color: rgba(249, 116, 21, 0.662);
+  background-color: rgba(252, 109, 6, 0.479);
 }
 
 #novedades {
@@ -658,10 +658,10 @@ body {
     display: none;
   }
   #novedades-des h3 {
-    font-size: 20px;
-    padding: 52px;
-    margin-top: 7px;
-    height: 0;
+    font-size: 15px;
+    padding: 21px;
+    margin-top: -23px;
+    height: 67px;
   }
 }
 #proximamente h1 {
