@@ -15,6 +15,15 @@
 #proximamente {
     @include proximamente-h1-con;
 }
+
+#novedades {
+    @include novedades;
+}
+
+#novedades-des h3 {
+    @include novedades-h3;
+}
+
 @media (width <= 1650px) {
     #novedades-des {
         @include mediaquery-novedades-des-con;
@@ -37,13 +46,6 @@
     }
 }
 
-#novedades-des h3 {
-    @include novedades-h3;
-}
-
-#novedades {
-    @include novedades;
-}
 #novedades-des {
     @include novedades-des;
 }
