@@ -308,6 +308,11 @@ body {
   color: rgb(95, 197, 231);
 }
 
+@media (width <= 1400px) {
+  .footer-conteiner #footer-navbar li a {
+    font-size: 9px;
+  }
+}
 .logo {
   display: flex;
   margin: auto;
@@ -364,11 +369,6 @@ body {
   .logo {
     margin-left: 2px;
     width: 120px;
-  }
-}
-@media (width <= 1400px) {
-  .footer-conteiner #footer-navbar li a {
-    font-size: 9px;
   }
 }
 /* seccion personajes.html   */
