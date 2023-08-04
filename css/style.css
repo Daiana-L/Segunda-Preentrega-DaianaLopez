@@ -535,6 +535,11 @@ body {
     flex-wrap: wrap;
   }
 }
+@media (width <= 575px) {
+  .nivel .filas {
+    width: 0;
+  }
+}
 /* novedades seccion */
 .novedades-des {
   display: flex;
