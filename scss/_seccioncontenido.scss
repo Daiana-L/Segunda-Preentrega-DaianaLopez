@@ -54,8 +54,15 @@
     @include contenido-img;
 }
 
-@media (width <= 1650px) {
-    #novedades-des {
-        @include mediaquery-novedades-des-nov;
-    }
+#novedadea-des h3 {
+    font-size: 50px;
+    color: rgba(240, 248, 255, 0.767);
+    text-align: center;
+    border-width: 3px;
+    border-style: inset;
+    border-color: rgba(130, 143, 12, 0.267);
+    font-family: "Amatic SC", cursive;
+    background-color: rgba(252, 109, 6, 0.479);
+    margin-top: 41px;
+    margin-bottom: 41px;
 }
