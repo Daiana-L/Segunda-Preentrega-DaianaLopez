@@ -549,19 +549,17 @@ body {
   font-family: "Amatic SC", cursive;
 }
 .novedades-des h2 {
-  width: 40%;
-  font-size: 50px;
-  background-color: rgba(4, 9, 51, 0.493);
+  font-size: 30px;
   color: rgba(240, 248, 255, 0.767);
-  padding: 65px;
-  height: 2px;
-  padding-top: 15px;
+  text-align: center;
   border-width: 3px;
   border-style: inset;
   border-color: rgba(130, 143, 12, 0.267);
-  text-align: center;
   font-family: "Amatic SC", cursive;
-  margin-top: 40px;
+  background-color: rgba(4, 9, 51, 0.493);
+  margin-top: 41px;
+  margin-bottom: 40px;
+  width: 100%;
 }
 
 #novedades {
