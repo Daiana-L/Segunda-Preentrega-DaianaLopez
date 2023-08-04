@@ -734,9 +734,6 @@ body {
     display: flex;
     flex-direction: column;
   }
-  #novedades-des h1 {
-    margin-top: 17px;
-  }
   #novedades-des img {
     display: none;
   }
