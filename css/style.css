@@ -605,12 +605,6 @@ body {
     flex-direction: column;
   }
 }
-@media (width <= 1650px) {
-  .novedades-des {
-    width: 30px;
-    font-size: 20px;
-  }
-}
 /*seccion contenido*/
 #contenido {
   display: flex;

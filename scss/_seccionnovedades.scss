@@ -32,9 +32,3 @@
         @include mediaquery-conteiner-nov;
     }
 }
-
-@media (width <= 1650px) {
-    .novedades-des {
-        @include mediaquery-novedades-des-h2;
-    }
-}
