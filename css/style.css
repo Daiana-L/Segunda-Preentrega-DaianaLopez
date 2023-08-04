@@ -604,6 +604,12 @@ body {
     flex-direction: column;
   }
 }
+@media (width >= 1700px) {
+  .novedades-des h2 {
+    height: 60px;
+    width: 700px;
+  }
+}
 /*seccion contenido*/
 #contenido {
   display: flex;
