@@ -31,9 +31,3 @@
         @include mediaquery-filas;
     }
 }
-
-@media (width <= 575px) {
-    .nivel .filas {
-        width: 0;
-    }
-}
