@@ -523,6 +523,14 @@ body {
   margin-right: 10px;
 }
 
+.filas-menores {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 10px;
+}
+
 .main h3 {
   color: rgba(16, 159, 254, 0.786);
 }

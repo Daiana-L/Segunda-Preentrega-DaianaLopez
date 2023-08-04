@@ -10,6 +10,15 @@
         @include filas-display;
     }
 }
+
+.filas-menores {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+}
+
 .main {
     h3 {
         color: $maid-color-h3;
