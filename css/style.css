@@ -734,9 +734,6 @@ body {
     display: flex;
     flex-direction: column;
   }
-  #novedades-des img {
-    display: none;
-  }
 }
 #novedades-des h3 {
   font-size: 30px;

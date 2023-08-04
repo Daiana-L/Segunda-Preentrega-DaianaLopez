@@ -421,9 +421,6 @@
 @mixin mediaquery-novedades-des-nov {
     display: flex;
     flex-direction: column;
-    img {
-        display: none;
-    }
 }
 
 @mixin mediaquery-conteiner-nov {
