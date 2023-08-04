@@ -575,6 +575,7 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(549px, 2fr));
   grid-column-gap: 50px;
   margin-top: 1%;
+  margin-left: 82px;
 }
 #novedades .nov-box img {
   align-items: center;
