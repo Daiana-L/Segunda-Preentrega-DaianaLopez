@@ -343,12 +343,27 @@
     margin-right: 10px;
 }
 
+@mixin filas-menores {
+    display: flex;
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+
 @mixin mediaquery-nivel {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(60px));
 }
 
 @mixin mediaquery-filas {
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+@mixin mediaquery-filas-menores {
     flex-wrap: wrap;
 }
 
