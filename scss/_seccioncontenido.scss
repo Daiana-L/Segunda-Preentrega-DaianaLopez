@@ -25,7 +25,7 @@
 }
 
 @media (width <= 1650px) {
-    #novedades-des {
+    .novedades-des {
         @include mediaquery-novedades-des-con;
     }
 }
