@@ -501,7 +501,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 2fr));
   grid-column-gap: 50px;
-  margin-top: 1%;
+  margin-top: 4%;
 }
 
 /* tierlist seccion */
