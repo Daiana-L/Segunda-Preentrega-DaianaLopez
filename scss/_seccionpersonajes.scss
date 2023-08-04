@@ -44,7 +44,7 @@
     }
 }
 
-@media (max-width: 200px){
+@media (max-width: 200px) {
     #lista-personaje .main h3 {
         font-size: 20px;
     }
@@ -56,4 +56,5 @@
 
 .nivel #tier {
     color: $tier-color;
+    margin-right: 40px;
 }

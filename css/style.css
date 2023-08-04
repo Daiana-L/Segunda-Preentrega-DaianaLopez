@@ -494,6 +494,7 @@ body {
 
 .nivel #tier {
   color: rgba(252, 109, 6, 0.479);
+  margin-right: 40px;
 }
 
 /* tierlist seccion */
