@@ -725,10 +725,6 @@ body {
   justify-content: space-around;
 }
 
-#novedades-des img {
-  width: 200px;
-}
-
 @media (width <= 1650px) {
   #novedades-des {
     display: flex;

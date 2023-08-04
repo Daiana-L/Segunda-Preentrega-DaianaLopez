@@ -50,10 +50,6 @@
     @include novedades-des;
 }
 
-#novedades-des img {
-    @include contenido-img;
-}
-
 @media (width <= 1650px) {
     #novedades-des {
         @include mediaquery-novedades-des-nov;
