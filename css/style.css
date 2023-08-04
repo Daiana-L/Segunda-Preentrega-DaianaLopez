@@ -529,6 +529,7 @@ body {
   flex-direction: row;
   align-items: center;
   margin-right: 10px;
+  justify-content: space-between;
 }
 
 .main h3 {
