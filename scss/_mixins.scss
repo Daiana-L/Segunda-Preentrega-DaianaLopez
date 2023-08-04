@@ -345,7 +345,7 @@
 }
 
 @mixin filas-menores {
-    width: $width-full;
+    width: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -362,10 +362,12 @@
 @mixin mediaquery-filas {
     flex-wrap: wrap;
     align-items: center;
+    width: $width-full;
 }
 
 @mixin mediaquery-filas-menores {
     flex-wrap: wrap;
+    width: $width-full;
 }
 
 /* novedades seccion */

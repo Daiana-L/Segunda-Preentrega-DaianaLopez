@@ -525,7 +525,7 @@ body {
 }
 
 .filas-menores {
-  width: 100%;
+  width: 50px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -537,6 +537,7 @@ body {
 @media (width <= 575px) {
   .filas-menores {
     flex-wrap: wrap;
+    width: 100%;
   }
 }
 .main h3 {
@@ -557,6 +558,7 @@ body {
   .filas {
     flex-wrap: wrap;
     align-items: center;
+    width: 100%;
   }
 }
 /* novedades seccion */
