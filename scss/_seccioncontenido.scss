@@ -57,22 +57,16 @@
 }
 
 #novedades-des h3 {
-    font-size: 30px;
-    color: rgba(240, 248, 255, 0.767);
-    text-align: center;
-    border-width: 3px;
-    border-style: inset;
-    border-color: rgba(130, 143, 12, 0.267);
-    font-family: "Amatic SC", cursive;
-    background-color: $color-azul;
-    margin-top: 41px;
-    margin-bottom: 40px;
-    width: $width-full;
+    @include novedades-h3-des;
 }
 
 @media (width <= 1650px) {
     #novedades-des h3 {
         font-size: 20px;
-        margin-top: -8px;
+        margin-top: -9px;
     }
+}
+
+#proximamente hr {
+    color: $color-blancoTransparente;
 }
