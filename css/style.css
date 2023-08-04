@@ -593,6 +593,7 @@ body {
   border-radius: 10px;
   color: rgba(240, 248, 255, 0.767);
   background-color: rgba(29, 156, 230, 0.4392156863);
+  margin-left: 25px;
 }
 
 @media (width <= 1650px) {
