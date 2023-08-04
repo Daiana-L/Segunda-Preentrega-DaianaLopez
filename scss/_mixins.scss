@@ -338,14 +338,14 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 75%;
+    width: $width-full;
     justify-content: space-around;
     margin-right: 10px;
     align-items: center;
 }
 
 @mixin filas-menores {
-    width: 100%;
+    width: $width-full;
     display: flex;
     flex-direction: row;
     align-items: center;
