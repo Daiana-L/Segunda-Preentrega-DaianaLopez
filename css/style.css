@@ -685,25 +685,25 @@ body {
 }
 
 @media (width <= 1650px) {
-  novedades-des {
+  .novedades-des {
     display: flex;
     flex-direction: column;
   }
-  novedades-des img {
+  .novedades-des img {
     display: none;
   }
-  novedades-des h1 {
+  .novedades-des h1 {
     text-align: center;
     margin-left: 50px;
   }
-  novedades-des h2 {
+  .novedades-des h2 {
     width: 341px;
     padding: 32px;
     font-size: 20px;
     padding-top: 10px;
     margin-top: 10px;
   }
-  novedades-des h3 {
+  .novedades-des h3 {
     font-size: 15px;
     padding: 21px;
     margin-top: -23px;
