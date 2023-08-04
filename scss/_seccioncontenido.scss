@@ -25,7 +25,7 @@
 }
 
 @media (width <= 1100px) {
-    #novedades-des {
+    .novedades-des {
         @include mediaquery-novedades-des-con;
     }
 }
@@ -52,4 +52,10 @@
 
 #novedades-des img {
     @include contenido-img;
+}
+
+@media (width <= 1650px) {
+    #novedades-des {
+        @include mediaquery-novedades-des-nov;
+    }
 }
