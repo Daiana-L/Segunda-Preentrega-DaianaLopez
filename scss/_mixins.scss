@@ -341,6 +341,7 @@
     width: 75%;
     justify-content: space-around;
     margin-right: 10px;
+    align-items: center;
 }
 
 @mixin filas-menores {
@@ -351,6 +352,7 @@
     align-items: center;
     margin-right: 10px;
     justify-content: space-between;
+    align-items: center;
 }
 
 @mixin mediaquery-nivel {

@@ -521,6 +521,7 @@ body {
   width: 75%;
   justify-content: space-around;
   margin-right: 10px;
+  align-items: center;
 }
 
 .filas-menores {
@@ -531,6 +532,7 @@ body {
   align-items: center;
   margin-right: 10px;
   justify-content: space-between;
+  align-items: center;
 }
 
 @media (width <= 575px) {
